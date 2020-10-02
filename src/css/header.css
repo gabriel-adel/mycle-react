@@ -8,7 +8,14 @@
   border: none;
   cursor: pointer;
 }
+.container2{
+  width: 80%;
+  margin: 0 auto;
+}
 
+.menu{
+  background: #4CAF50;
+} 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
@@ -47,39 +54,37 @@
 }
 /*container*/
 .container{
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
    
 }
 .header-background{
-    
-    background-color: green;
+  background-color: green;
 }
 
-/*imagem*/
-
-/*share*/
-.share{
-    width: 80%;
-    
+.content-header-top{
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.shareText{
-    margin-left: 20px;
-    width: 70%;
-}
-.sharebtn{
-    width: 10%;
-    
+.carrinho{
+  margin: 0 100px 0 0;
+  width: 100px;  
+  
 }
 .shop-icon{
-   width: 400px; 
+  height: 50px;
+  width: 50px;
 }
-
-.logo, .share,.sharebtn, .carrinho{
-    display: table-cell;
-
-    vertical-align: middle;
-
-    
+.share{
+  width: 40%;
 }
-
+.shareText{
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+}
+.form-share{
+  width: 100%;    
+}

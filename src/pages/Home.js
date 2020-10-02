@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from '../components/banner'
-import BannerProduct from '../components/bannerProduct'
+import ShowProduct from '../components/showProduct'
 
 export default class Home extends React.Component{
     
@@ -8,7 +8,7 @@ export default class Home extends React.Component{
         return(
             <div>
                 <Banner />
-                <BannerProduct />
+                <ShowProduct />
             </div>
             
         )

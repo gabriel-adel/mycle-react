@@ -4,6 +4,7 @@
     background-color: green;
 }
 .footer{
+    clear: both;
     position: relative;
     background-color: red;
     width:100%;
